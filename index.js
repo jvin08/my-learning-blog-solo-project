@@ -33,7 +33,7 @@ function viewMore(){
 
 function render (posts){
     let renderRange = 4;
-    
+    console.log(window.location.pathname)
     if(window.location.pathname === '/index.html' && showAll){
         renderRange = posts.length
     } else if(window.location.pathname === '/index.html') {
