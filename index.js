@@ -33,10 +33,12 @@ function viewMore(){
 
 function render (posts){
     let renderRange = 4;
-    console.log(window.location.pathname)
-    if(window.location.pathname === '/index.html' && showAll){
+
+    if(showAll){
+        // render all posts
         renderRange = posts.length
-    } else if(window.location.pathname === '/index.html') {
+    } else {
+        // render only 6 posts
         renderRange = 7
     }
     let newPosts = posts.slice().reverse()
@@ -56,3 +58,4 @@ function render (posts){
 }
 render(blogData)
 // setTimeout(render(postsArray),500)
+export { render }

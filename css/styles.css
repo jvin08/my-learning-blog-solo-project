@@ -215,7 +215,6 @@ nav a {
 
 @media (min-width: 650px){
 
-
     .blog-container {
         margin-left: 3vw;
         margin-right: 3vw;
@@ -243,11 +242,15 @@ nav a {
     header h2 {
         font-size: 1.25rem;
     }
-
+    /* media for index3.html*/
+    .about-me {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
 }
 
     /* css for index2.html*/
-
 
     .recent{
         display: flex;
@@ -291,14 +294,16 @@ nav a {
     .about-me h2,
     .about-me h4 {
         max-width: 600px;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        /* margin-left: 5vw; */
+        margin-right: auto;
     }
     .about-me img {
         width: 150px;
+        height: 150px;
         border-radius: 50%;
-        margin: 0 auto 1.5em 5vw;
+        margin: 0 2.5em 1.5em 5vw;
     }
+
 
 
     /* css for index4.html  & index5.html */
