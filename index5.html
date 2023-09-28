@@ -1,0 +1,70 @@
+<html lang="en">
+    <head>
+        <title>My styding blog</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+                                          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+                                          crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+         
+        
+ 
+            <header>
+                <div class="mobile-nav">
+                    <h2>
+                        <i class="fa-solid fa-mountain fa-xl"></i>
+                        My learning journal 
+                    </h2>
+                    <div class="burger" id="burger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                      </div>
+                      
+                </div>
+
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index2.html">My Start</a></li>
+                        <li><a href="index3.html">About Me</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+            <main class="create-new-post">
+
+                <h3>Create new post.</h3>
+                <form  id="my-new-post">
+                    <label for="name">Title</label>
+                    <input type="text" required placeholder="My Journey to Frontend Mastery" id="title" aria-label="Title">
+                    <label for="post-text">Add thoughts</label>
+                    <textarea name="post-text" required id="post-text" cols="30" rows="10" placeholder="Share with the world"></textarea>
+
+                    <label for="image-url">image URL</label>
+                    <input type="url" required placeholder="e.g. https://raw.githubusercontent.com/image.jpg" id="image-url" aria-label="Image URL">
+                    <div class="save-btns" id="save-btns">
+                        <button type="submit" class="btn save" id="save-post">Save post</button>
+                        <button type="submit" class="btn declice" id="decline-post">Decline post</button>
+                    </div>
+                    
+                </form>
+            </main>    
+
+
+            <footer>    
+                    <p><a href="index5.html">Create Post</a>  <a href="index4.html">Contact</a></p>
+                <h4>My learning journal</h4>
+                <p>Copyright  &copy; 2024</p>
+            </footer>
+            <script src="index5.js" type="module"></script>
+
+    </body>
+</html>
